@@ -6,6 +6,9 @@
     <title>Projeto da Faculdade</title>
 </head>
    
+<!-- link AOS  -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!-- link css alert  -->
 <link rel="stylesheet" href="sweetalert2.min.css">
 
@@ -75,7 +78,7 @@
 
             <div class="col-lg-6">
 
-                <div class="banner-title">
+                <div data-aos="fade-down" class="banner-title">
                     <h1>ONG - Ação e Vida</h1>
 
                     <p>
@@ -90,7 +93,7 @@
             </div>
 
             <div class="col-lg-6">
-                <div class="banner-imagem">
+                <div data-aos="fade-down" class="banner-imagem">
                   <img src="assets/jpg/banner.jpg" alt="mulher sorrindo"  style="height: auto; width: 100%;">
                 </div>
             </div>
@@ -105,19 +108,22 @@
           <div class="row">
             <div class="col-lg-6">
   
-              <div class="banner-imagem" id="imagem-sobre-nos">
+              <div data-aos="fade-up" data-aos-duration="2000" class="banner-imagem" id="imagem-sobre-nos">
                 <img src="assets/jpeg/sobrenos.jpeg" alt="mulher sorrindo" style="height: auto; width: 100%;">
               </div>
   
             </div>
             <div class="col-lg-6">
-              <p class="resumo-sobre-nos">
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <p class="resumo-sobre-nos">
                 
-                <h2>Sobre nós</h2>
-
-                Somos uma organização da sociedade civil que acolhe, instruí e incentiva pessoas em situação de vulnerabilidade no Cabuçú, em Guarulhos/SP. Fortalecendo vínculos sociais através de projetos socioeducativos que constroem e desenvolvem repertório social, cultural, educacional e profissional dos atendidos. 
-                Atuamos há mais de 16 anos no Município de Guarulhos. De 2002 a 2018, atuamos na região do Picanço, após contribuir com o desenvolvimento da região, migramos para o Cabuçu - distrito com alto índice de vulnerabilidade social.
-              </p>
+                  <h2>Sobre nós</h2>
+  
+                  Somos uma organização da sociedade civil que acolhe, instruí e incentiva pessoas em situação de vulnerabilidade no Cabuçú, em Guarulhos/SP. Fortalecendo vínculos sociais através de projetos socioeducativos que constroem e desenvolvem repertório social, cultural, educacional e profissional dos atendidos. 
+                  Atuamos há mais de 16 anos no Município de Guarulhos. De 2002 a 2018, atuamos na região do Picanço, após contribuir com o desenvolvimento da região, migramos para o Cabuçu - distrito com alto índice de vulnerabilidade social.
+                </p>
+              </div>
+             
             </div>
           </div>
           </div>
@@ -125,10 +131,10 @@
        
 <!-- Projetos  -->
 <div class="container">
-          <div class="title mt-5 text-center" id="projetos">
+          <div data-aos="fade-up" data-aos-duration="2000" class="title mt-5 text-center" id="projetos">
             <h2>Projetos</h2>
   
-            <p>
+            <p data-aos="fade-up" data-aos-duration="2000">
               Transformar a realidade social de crianças, adolescentes e famílias, por meio da educação integral, profissionalização, qualidade de vida e orientação social, reduzindo os efeitos das desigualdades sociais no Distrito do Cabuçu - Guarulhos/SP.
             </p>
   
@@ -137,7 +143,7 @@
           <div class="row mt-5" id="card-container">
   
             <div class="col-lg-4">
-              <div class="card">
+              <div class="card" data-aos="fade-up" data-aos-duration="1800">
                 <img src="assets/jpeg/culturaVida.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Projeto Cultura é Vida</h5>
@@ -148,7 +154,7 @@
             </div>
   
             <div class="col-lg-4">
-              <div class="card">
+              <div class="card"  data-aos="fade-up" data-aos-duration="1500">
                 <img src="assets/jpeg/criandoArte.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Projeto criando Arte</h5>
@@ -159,7 +165,7 @@
             </div>
   
             <div class="col-lg-4">
-              <div class="card">
+              <div class="card"  data-aos="fade-up" data-aos-duration="1000">
                 <img src="assets/jpeg/tampinhas.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Projeto tampinha Legal</h5>
@@ -174,18 +180,18 @@
        
 <!-- Contato  -->
 <div class="container">
-          <div class="title mt-5 text-center" id="contato">
+          <div data-aos="fade-up" data-aos-duration="2000" class="title mt-5 text-center" id="contato">
             <h2>Contato</h2>
   
-            <p>
-              Nossa equipe criou um sistema de gestão inteligente para empresas, integrando análise de dados avançada e automação de processos para otimizar a eficiência operacional e impulsionar o crescimento sustentável.
+            <p data-aos="fade-up" data-aos-duration="2000">
+              Contate nossa equipe e apoie-nos!
             </p>
   
           </div>
           <div class="row mt-5">
             <div class="col-lg-6">
   
-              <div class="localizacao">
+              <div class="localizacao" data-aos="fade-up" data-aos-duration="2000">
   
                 <div class="localizacao-item">
                   <h2>Localização</h2>
@@ -211,7 +217,7 @@
   
             <div class="col-lg-6">
   
-              <form id="myForm">
+              <form id="myForm"  data-aos="fade-up" data-aos-duration="2000">
   
                 <div class="input-field">
                   <input type="text" name="nome" placeholder="Nome">
@@ -343,6 +349,9 @@
 
 <!-- script bootstrap  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<!-- script AOS  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <!-- script alert  -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

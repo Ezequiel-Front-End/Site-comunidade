@@ -1,3 +1,5 @@
+AOS.init();
+
 const myForm = document.getElementById("myForm");
 const sucessSubmit = (nome) => {
     Swal.fire({
