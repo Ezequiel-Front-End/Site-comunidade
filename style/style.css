@@ -61,7 +61,7 @@ body {
 
 .card:hover {
     box-shadow: 1px 1px 10px rgb(0, 0, 0, .1);
-    transform: translateY(-5px);
+    transform: translateY(-25px);
     cursor: pointer;
 }
 
@@ -181,7 +181,7 @@ body {
         margin-bottom: 2rem;
     }
 
-    .row #myForm input[type="submit"]  {
+    .row #myForm input[type="submit"] {
         width: 100%;
     }
 
