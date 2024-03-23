@@ -18,11 +18,11 @@
 <body>
 
 <!-- navbar  -->
-<div class="container-fluid bg-light">
+<div class="container-fluid"  style="background: #025996;">
         
         <div class="container">
         
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background: #025996;">
             <div class="container-fluid">
 
               <a class="navbar-brand" href="#">
@@ -36,25 +36,25 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre nós</a>
+                    <a class="nav-link text-white" href="#sobre">Sobre nós</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#projetos">Projetos</a>
+                    <a class="nav-link text-white" href="#projetos">Projetos</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
+                    <a class="nav-link text-white" href="#contato">Contato</a>
                   </li>
               
                 </ul>
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <button style="background: #025996; color: #fff; border:1px solid #fff ;" class="btn" type="submit">Search</button>
                 </form>
               </div>
             </div>
@@ -64,10 +64,11 @@
 </div>
 
 <!-- conteudo  -->
-<div class="container">
 
         <!-- Banner  -->
-        <div class="row mt-5">
+        <div class="container">
+
+          <div class="row" style="margin-top: 5rem;">
 
             <div class="col-lg-6">
 
@@ -91,137 +92,144 @@
                 </div>
             </div>
 
+          </div>
+
         </div>
 
         <!-- Sobre nos  -->
-        <div class="title mt-5 text-center" id="sobre">
-            <h2>Sobre nós</h2>
-        </div>
-        <div class="row mt-5">
-          <div class="col-lg-6">
-
-            <div class="banner-imagem">
-              <img src="assets/jpg/banner.jpg" alt="mulher sorrindo">
+        <div id="sobre"style="background: #025996; color: #fff; padding: 1rem 0rem;" class="container-fluid mt-5">
+          <div class="container">            
+          <div class="row">
+            <div class="col-lg-6">
+  
+              <div class="banner-imagem">
+                <img src="assets/jpg/banner.jpg" alt="mulher sorrindo">
+              </div>
+  
             </div>
-
+            <div class="col-lg-6">
+              <h2>Sobre nós</h2>
+              <p class="resumo-sobre-nos">
+                Somos uma organização da sociedade civil que acolhe, instruí e incentiva pessoas em situação de vulnerabilidade no Cabuçú, em Guarulhos/SP. Fortalecendo vínculos sociais através de projetos socioeducativos que constroem e desenvolvem repertório social, cultural, educacional e profissional dos atendidos. 
+                Atuamos há mais de 16 anos no Município de Guarulhos. De 2002 a 2018, atuamos na região do Picanço, após contribuir com o desenvolvimento da região, migramos para o Cabuçu - distrito com alto índice de vulnerabilidade social.
+              </p>
+            </div>
           </div>
-          <div class="col-lg-6">
-            <p class="resumo-sobre-nos">
-              Somos uma organização da sociedade civil que acolhe, instruí e incentiva pessoas em situação de vulnerabilidade no Cabuçú, em Guarulhos/SP. Fortalecendo vínculos sociais através de projetos socioeducativos que constroem e desenvolvem repertório social, cultural, educacional e profissional dos atendidos. 
-              Atuamos há mais de 16 anos no Município de Guarulhos. De 2002 a 2018, atuamos na região do Picanço, após contribuir com o desenvolvimento da região, migramos para o Cabuçu - distrito com alto índice de vulnerabilidade social.
-            </p>
           </div>
         </div>
-
+       
         <!-- Projetos  -->
-        <div class="title mt-5 text-center" id="projetos">
-          <h2>Projetos</h2>
-
-          <p>
-            Nossa equipe criou um sistema de gestão inteligente para empresas, integrando análise de dados avançada e automação de processos para otimizar a eficiência operacional e impulsionar o crescimento sustentável.
-          </p>
-
+        <div class="container">
+          <div class="title mt-5 text-center" id="projetos">
+            <h2>Projetos</h2>
+  
+            <p>
+              Nossa equipe criou um sistema de gestão inteligente para empresas, integrando análise de dados avançada e automação de processos para otimizar a eficiência operacional e impulsionar o crescimento sustentável.
+            </p>
+  
+          </div>
+          <div class="row mt-5">
+  
+            <div class="col-lg-4">
+              <div class="card" style="width: 20rem;">
+                <img src="assets/jpeg/culturaVida.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Projeto Cultura é Vida</h5>
+                  <p class="card-text" style="text-align: left;">O projeto visa propiciar o exercício da cidadania e convivência comunitária por meio de ações integradas e complementares do desenvolvimento cultural, educacional e psicossocial dos participantes.</p>
+                  <a href="#" class="btn text-white" style="background: #025996;">Saiba mais...</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4">
+              <div class="card" style="width: 20rem;">
+                <img src="assets/jpeg/criandoArte.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Projeto criando Arte</h5>
+                  <p class="card-text">O projeto visa fortalecer a função protetiva das famílias, prevenir a ruptura dos vínculos familiares e comunitários, promover acesso a benefícios e serviços socioassistenciais contribuindo para todos.</p>
+                  <a href="#" class="btn text-white" style="background: #025996;">Saiba mais...</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4">
+              <div class="card" style="width: 20rem;">
+                <img src="assets/jpeg/tampinhas.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Projeto tampinha Legal</h5>
+                  <p class="card-text">O projeto Tampinha Legal tem o objetivo de conscientizar e mobilizar toda a sociedade a dar um destino correto aos resíduos de plástico e, também, movimenta uma economia solidária que beneficia instituição sociais.</p>
+                  <a href="#" class="btn text-white" style="background: #025996;">Saiba mais...</a>
+                </div>
+              </div>
+            </div>
+  
+          </div>
         </div>
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="card" style="width: 20rem;">
-              <img src="assets/jpeg/culturaVida.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Projeto Cultura é Vida</h5>
-                <p class="card-text" style="text-align: left;">O projeto visa propiciar o exercício da cidadania e convivência comunitária por meio de ações integradas e complementares do desenvolvimento cultural, educacional e psicossocial dos participantes.</p>
-                <a href="#" class="btn text-white" style="background: #025996;">Saiba mais...</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="card" style="width: 20rem;">
-              <img src="assets/jpeg/criandoArte.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Projeto criando Arte</h5>
-                <p class="card-text">O projeto visa fortalecer a função protetiva das famílias, prevenir a ruptura dos vínculos familiares e comunitários, promover acesso a benefícios e serviços socioassistenciais contribuindo para todos.</p>
-                <a href="#" class="btn text-white" style="background: #025996;">Saiba mais...</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="card" style="width: 20rem;">
-              <img src="assets/jpeg/tampinhas.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Projeto tampinha Legal</h5>
-                <p class="card-text">O projeto Tampinha Legal tem o objetivo de conscientizar e mobilizar toda a sociedade a dar um destino correto aos resíduos de plástico e, também, movimenta uma economia solidária que beneficia instituição sociais.</p>
-                <a href="#" class="btn text-white" style="background: #025996;">Saiba mais...</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
+       
         <!-- Contato  -->
-        <div class="title mt-5 text-center" id="contato">
-          <h2>Contato</h2>
-
-          <p>
-            Nossa equipe criou um sistema de gestão inteligente para empresas, integrando análise de dados avançada e automação de processos para otimizar a eficiência operacional e impulsionar o crescimento sustentável.
-          </p>
-
-        </div>
-        <div class="row mt-5">
-          <div class="col-lg-6">
-
-            <div class="localizacao">
-
-              <div class="localizacao-item">
-                <h2>Localização</h2>
-                <p>Rua Orlando Kavakevicios, 73, 79, 83.<br>Recreio São Jorge - Guarulhos / SP.</p>
+        <div class="container">
+          <div class="title mt-5 text-center" id="contato">
+            <h2>Contato</h2>
+  
+            <p>
+              Nossa equipe criou um sistema de gestão inteligente para empresas, integrando análise de dados avançada e automação de processos para otimizar a eficiência operacional e impulsionar o crescimento sustentável.
+            </p>
+  
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-6">
+  
+              <div class="localizacao">
+  
+                <div class="localizacao-item">
+                  <h2>Localização</h2>
+                  <p>Rua Orlando Kavakevicios, 73, 79, 83.<br>Recreio São Jorge - Guarulhos / SP.</p>
+                </div>
+  
+                <div class="localizacao-item-icons">
+                  <h2>Siga-nós</h2>
+                  <a href="https://www.linkedin.com/company/unavailable/" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                  </a>
+                  <a href="https://www.instagram.com/acaovidaong/" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                  </a>
+                  <a href="https://www.facebook.com/OngAcaoVida/" target="_blank">
+                    <i class='bx bxl-facebook-square'></i>
+                  </a>
+                </div>
+                
               </div>
-
-              <div class="localizacao-item-icons">
-                <h2>Siga-nós</h2>
-                <a href="https://www.linkedin.com/company/unavailable/" target="_blank">
-                  <i class='bx bxl-linkedin-square'></i>
-                </a>
-                <a href="https://www.instagram.com/acaovidaong/" target="_blank">
-                  <i class='bx bxl-instagram'></i>
-                </a>
-                <a href="https://www.facebook.com/OngAcaoVida/" target="_blank">
-                  <i class='bx bxl-facebook-square'></i>
-                </a>
-              </div>
-              
+  
             </div>
-
+  
+            <div class="col-lg-6">
+  
+              <form id="myForm">
+  
+                <div class="input-field">
+                  <input type="text" placeholder="Nome">
+                </div>
+  
+                <div class="input-field">
+                  <input type="text" placeholder="E-mail">
+                </div>
+  
+                <div class="input-field">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                </div>
+  
+                <div class="input-field">
+                  <input type="submit" value="Enviar">
+                </div>
+                
+              </form>
+  
+            </div>
+  
           </div>
-
-          <div class="col-lg-6">
-
-            <form id="myForm">
-
-              <div class="input-field">
-                <input type="text" placeholder="Nome">
-              </div>
-
-              <div class="input-field">
-                <input type="text" placeholder="E-mail">
-              </div>
-
-              <div class="input-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-              </div>
-
-              <div class="input-field">
-                <input type="submit" value="Enviar">
-              </div>
-              
-            </form>
-
-          </div>
-
         </div>
-
-</div>
+      
 
 <!-- footer (rodapé) -->
 <div class="container-fluid my-5"  style="background: #025996">
