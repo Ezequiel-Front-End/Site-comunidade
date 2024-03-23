@@ -110,7 +110,6 @@ body {
     background: rgba(169, 166, 166, 0.148);
 }
 
-
 .row #myForm input[type="submit"] {
     height: auto;
     width: 200px;
@@ -121,4 +120,20 @@ body {
     font-weight: 500;
     border-radius: 5px;
     outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.row #myForm input[type="submit"]:hover {
+    background: var(--bg-primary);
+    color: var(--bg-text);
+}
+
+.row .localizacao .localizacao-item-icons a {
+    text-decoration: none;
+}
+
+.row .localizacao .localizacao-item-icons a i {
+    color: var(--bg-primary);
+    font-size: 20pt;
+    margin-right: 0.30rem;
 }
