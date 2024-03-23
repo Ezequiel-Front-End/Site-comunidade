@@ -137,3 +137,52 @@ body {
     font-size: 20pt;
     margin-right: 0.30rem;
 }
+
+/* Responsivo  */
+
+@media screen and (max-width: 990px) {
+    #card-container {
+        height: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container .banner-imagem {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container .banner-imagem img {
+        height: 300px;
+        width: auto;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgb(0, 0, 0, .1);
+    }
+
+    .container .row #imagem-sobre-nos {
+        display: none;
+    }
+
+    #card-container .card {
+        margin-top: 1rem;
+    }
+
+    .row .banner-imagem {
+        margin-top: 2rem;
+    }
+
+    .localizacao {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .row #myForm input[type="submit"]  {
+        width: 100%;
+    }
+
+}
