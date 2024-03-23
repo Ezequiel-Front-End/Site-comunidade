@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+:root {
+    --bg-primary: #025996;
+    --bg-text: #fff;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.container-fluid .navbar-brand img {
+    height: 60px;
+    width: auto;
+}
+
+.container .banner-title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container .banner-title p {
+    font-size: 13pt;
+}
+
+.container .banner-title button {
+    height: auto;
+    width: 40%;
+    padding: 0.50rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: var(--bg-primary);
+    color: var(--bg-text);
+}
+
+.container .banner-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container .banner-imagem img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, .1);
+}
+
+.row .resumo-sobre-nos {
+    text-align: justify;
+    font-size: 13pt;
+}
+
+.row #myForm {
+    height: auto;
+    width: 100%;
+}
+
+.row #myForm input[type="text"] {
+    height: auto;
+    width: 100%;
+    margin-top: 5px;
+    padding: 0.50rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgba(169, 166, 166, 0.148);
+}
+
+.row #myForm textarea {
+    height: auto;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+    padding: 0.50rem;
+    border: none;
+    outline: none;
+    background: rgba(169, 166, 166, 0.148);
+}
+
+
+.row #myForm input[type="submit"] {
+    height: auto;
+    width: 200px;
+    padding: 0.30rem;
+    border: 1px solid var(--bg-primary);
+    background: none;
+    color: var(--bg-primary);
+    font-weight: 500;
+    border-radius: 5px;
+    outline: none;
+}
