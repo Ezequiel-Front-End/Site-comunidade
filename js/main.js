@@ -16,6 +16,16 @@ const sucessSubmit = (nome) => {
 
 }
 
+const validEmail = (email) => {
+    const regex = new RegExp("[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}");
+
+    if (regex.test(email)) {
+        return true;
+    }
+
+    return false;
+}
+
 myForm.addEventListener('submit', (event) => {
     let nome = myForm.nome.value;
     let email = myForm.email.value;
@@ -23,11 +33,11 @@ myForm.addEventListener('submit', (event) => {
     let erro = document.querySelectorAll(".erro");
 
     nome == "" ? erro[0].style.display = "block" : erro[0].style.display = "none";
-    email == "" ? erro[1].style.display = "block" : erro[1].style.display = "none";
+    validEmail(email) == "" ? erro[1].style.display = "block" : erro[1].style.display = "none";
     mensagem == "" ? erro[2].style.display = "block" : erro[2].style.display = "none";
 
 
-    if (nome != "" && email != "" && mensagem !== "") {
+    if (nome != "" && validEmail(email) && mensagem !== "") {
         sucessSubmit(nome);
 
     }
@@ -35,3 +45,5 @@ myForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
 });
+
+
